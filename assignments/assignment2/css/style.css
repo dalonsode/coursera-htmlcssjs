@@ -43,6 +43,8 @@ p {
 /* Class Selectors */
 .container {
 	position: relative;
+  margin-right: auto;
+  margin-left: auto;
 	width: 90%;
 }
 /* Simple Responsive Framework. */
