@@ -1,9 +1,91 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+	<header>
+    <nav id="header-nav" class="navbar navbar-default GeneratedGradient">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><h1>Food, LLC</h1></a>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs">
+              <a href="#chicken-tile">Chicken</a>
+            </li>
+            <li class="visible-xs">
+              <a href="#beef-tile">Beef</a>
+            </li>
+            <li class="visible-xs">
+              <a href="#shushi-tile">Shushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="main-content" class="container">
+    <h2 id="menu-title" class="text-center">Our Menu</h2>
+
+    <section class="row">
+    	<section class="col-xs-12 col-sm-6 col-md-4">
+      		<div id="chicken-tile" class="food-tile">
+      			<h3 class="text-center">Chicken</h3>
+    			<p id="p1">The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl... </p>
+    			<section>
+    				<p>(End of Chicken section) <a href="#menu-title">Back to Top</a></p>
+    			</section>
+
+    		</div>
+      	</section>
+      	<section class="col-xs-12 col-sm-6 col-md-4">
+      		<div id="beef-tile" class="food-tile">
+      			<h3 class="text-center">Beef</h3>
+      			<p id="p1">Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of high-quality protein and nutrients.Beef skeletal muscle meat can be used as is by merely cutting into certain parts roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.)... </p>
+    			<section>
+    				<p>(End of Beef section) <a href="#menu-title">Back to Top</a></p>
+    			</section>
+      		</div>
+      	</section>
+      	<section class="col-xs-12 col-sm-12 col-md-4">
+      		<div id="shushi-tile" class="food-tile">
+      			<h3 class="text-center">Shushi</h3>
+      			<p id="p1">Sushi (すし, 寿司, 鮨, pronounced [sɯꜜɕi] or [sɯɕiꜜ]) is a Japanese dish of specially prepared vinegared rice (鮨飯 sushi-meshi), usually with some sugar and salt, combined with a variety of ingredients (ネタ neta), such as seafood, vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the key ingredient is "sushi rice"... </p>
+    			<section>
+    				<p>(End of Shushi section) <a href="#menu-title">Back to Top</a></p>
+    			</section>
+      		</div>
+      	</section>
+    </section>
+  </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
