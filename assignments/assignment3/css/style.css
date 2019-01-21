@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+nav.GeneratedGradient {
+	/* Code for the gradient */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #43a7bc), color-stop(1, #ff9900));
+	background: -webkit-linear-gradient(bottom left, #43a7bc 0%, #ff9900 100%);
+	background: -moz-linear-gradient(bottom left, #43a7bc 0%, #ff9900 100%);
+	background: -o-linear-gradient(bottom left, #43a7bc 0%, #ff9900 100%);
+	background: -ms-linear-gradient(bottom left, #43a7bc 0%, #ff9900 100%);
+	background: linear-gradient(to top right, #43a7bc 0%, #ff9900 100%);
+}
+#header-nav {
+  border-radius: 	0;
+  border:			0;
+}
+.navbar-brand h1 {
+	color:		   #E7E7E7;
+	width:		   100%;
+	font-family:   'Lora', serif;
+	font-weight:   bold;
+	text-shadow:   1px 1px 1px #222;
+	margin-top:    0;
+	margin-bottom: 0;
+	line-height:   .75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #E7E7E7;
+}
+.navbar-header button.navbar-toggle {
+  clear: 		both;
+  margin-top: 	-30px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: 		#000000;
+  text-align: 	center;
+  font-size: 	1.3em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+/** MENU TILES**/
+#chicken-tile {
+  background-color: #A52A2A;
+  height: 			700px;
+}
+#beef-tile {
+  background-color: #DEB887;
+  height: 			700px;
+}
+#shushi-tile {
+  background-color: #5F9EA0;
+  height: 			700px;
+}
+h2 {
+	margin-right:  	30px;
+	margin-bottom: 	20px;
+	text-align: 	center;
+	font-size: 		175%;
+	font-weight: 	bold;
+}
+section > div {
+	border: 	1px solid black;
+	padding: 	10px;
+}
+.container {
+	position: 		relative;
+    margin-right: 	auto;
+    margin-left: 	auto;
+}
+.row {
+	width: 100%;
+}
+.food-tile { 
+  position: relative;
+  border: 	2px solid #3F0C1F;
+  overflow: hidden;
+  margin: 	0 auto 25px;
+}
